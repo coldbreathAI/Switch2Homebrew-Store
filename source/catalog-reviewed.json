@@ -1,0 +1,1610 @@
+{
+  "source_revision": 27,
+  "entries": [
+    {
+      "id": "retroarch",
+      "cover_id": "retroarch",
+      "name": "RetroArch",
+      "category": "emulation",
+      "summary": "Emulación multiconsola con RetroArch y sus núcleos para Switch 2.",
+      "requirement": "Usa ROMs o discos de tus juegos originales. Algunos núcleos requieren BIOS de tus propias consolas.",
+      "source": "https://switch2homebrew.com/projects/retroarch",
+      "package": {
+        "kind": "zip",
+        "version": "0.5.0",
+        "url": "https://github.com/NerdsMcGee/retroarch-s2/releases/download/switch2-v0.5.0/retroarch-switch2-v0.5.0.zip",
+        "sha256": "5a9b6720b44d8b39720d920a8f6c2ba5d5e81aa1e511d46fcb86830dd9847290",
+        "size": 504925907,
+        "target": "sdmc:/switch/retroarch",
+        "source": "https://github.com/NerdsMcGee/retroarch-s2",
+        "archive_root": "retroarch",
+        "marker": "retroarch_switch.nro",
+        "archive_secondary_root": "switch/retroarch"
+      }
+    },
+    {
+      "id": "sw2nes",
+      "cover_id": "sw2nes",
+      "name": "SW2NES",
+      "category": "emulation",
+      "summary": "Emulador de NES con estados de guardado, filtros y modo para dos jugadores.",
+      "requirement": "Requiere ROMs extraídas de tus juegos originales de NES.",
+      "source": "https://switch2homebrew.com/projects/sw2nes",
+      "package": {
+        "kind": "nro",
+        "version": "v2.12.2",
+        "url": "https://github.com/Rodpad/SW2NES/releases/download/v2.12.2/sw2nes.nro",
+        "sha256": "661f55474fa9d7dc9dc2f0f63902147ffbebf1022f6471b72fa1991137a1f33a",
+        "size": 22202374,
+        "target": "sdmc:/switch/sw2nes/sw2nes.nro",
+        "source": "https://github.com/Rodpad/SW2NES"
+      }
+    },
+    {
+      "id": "sw2snes",
+      "cover_id": "sw2snes",
+      "name": "SW2SNES",
+      "category": "emulation",
+      "summary": "Emulador de Super Nintendo con rebobinado, filtros y soporte de chips especiales.",
+      "requirement": "Requiere ROMs extraídas de tus juegos originales de Super Nintendo.",
+      "source": "https://switch2homebrew.com/projects/sw2snes",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.1",
+        "url": "https://github.com/Rodpad/SW2SNES/releases/download/v1.0.1/sw2snes.nro",
+        "sha256": "ed1e8a246bc2ea9ba8a5772206fcbed83fdcc73b186dbc131b9be2494880c2fb",
+        "size": 21748484,
+        "target": "sdmc:/switch/sw2snes/sw2snes.nro",
+        "source": "https://github.com/Rodpad/SW2SNES"
+      }
+    },
+    {
+      "id": "mgba",
+      "cover_id": "mgba",
+      "name": "mGBA",
+      "category": "emulation",
+      "summary": "Emulador de Game Boy Advance con audio y guardados.",
+      "requirement": "Añade ROMs de tus juegos originales. Puedes usar la BIOS de tu propia consola.",
+      "source": "https://switch2homebrew.com/projects/mgba",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.0",
+        "url": "https://github.com/jackspence7/GBA-kaiHEN/releases/download/v1.0.0/mgba.nro",
+        "sha256": "d36444da81498d6cae058745117f659a3cfb3d2fffb609bfbcf05a4a98c820ae",
+        "size": 18192371,
+        "target": "sdmc:/switch/gba-kaihen/mgba.nro",
+        "source": "https://github.com/jackspence7/GBA-kaiHEN"
+      }
+    },
+    {
+      "id": "melonds-switch2",
+      "cover_id": "melonds-switch2",
+      "name": "melonDS-switch2",
+      "category": "emulation",
+      "summary": "Emulador experimental de Nintendo DS.",
+      "requirement": "Requiere ROMs de tus juegos originales y, si la app lo solicita, BIOS y firmware de tu propia DS.",
+      "source": "https://switch2homebrew.com/projects/melonds-switch2",
+      "package": {
+        "kind": "zip",
+        "version": "v0.8.3-s2-test.1",
+        "url": "https://github.com/ac1dburnz/melonDS-switch2/releases/download/v0.8.3-s2-test.1/melonds-switch2-experimental.zip",
+        "sha256": "1bc6c7029219a42cdb6e256a895724da952a6a1251054f4450b7c804cf6db275",
+        "size": 5864631,
+        "target": "sdmc:/switch/melonds",
+        "source": "https://github.com/ac1dburnz/melonDS-switch2",
+        "archive_root": "switch/melonds",
+        "marker": "melonds-switch2.nro"
+      }
+    },
+    {
+      "id": "kaizhar",
+      "cover_id": "kaizhar",
+      "name": "Kaizhar",
+      "category": "emulation",
+      "summary": "Emulador de Nintendo 3DS basado en Azahar.",
+      "requirement": "Requiere juegos originales propios y los datos de tu consola que necesite la configuración.",
+      "source": "https://switch2homebrew.com/projects/kaizhar",
+      "package": {
+        "kind": "nro",
+        "version": "2126.2-kaizhar3",
+        "url": "https://github.com/wowilookgood/kaizhar/releases/download/2126.2-kaizhar3/kaizhar.nro",
+        "sha256": "33ced15bae8b53cfbaaacca011175b3c41863dd8185b12dbab896e6e967cbb31",
+        "size": 34447882,
+        "target": "sdmc:/switch/kaizhar.nro",
+        "source": "https://github.com/wowilookgood/kaizhar"
+      }
+    },
+    {
+      "id": "toronja",
+      "cover_id": "toronja",
+      "name": "Toronja",
+      "category": "emulation",
+      "summary": "Emulador de Nintendo 3DS con opciones de resolución y pantalla.",
+      "requirement": "Requiere juegos extraídos de tus copias originales de 3DS.",
+      "source": "https://switch2homebrew.com/projects/toronja",
+      "package": {
+        "kind": "nro",
+        "version": "v0.9.37",
+        "url": "https://github.com/Olmectron/toronja/releases/download/v0.9.37/toronja-switch2.nro",
+        "sha256": "8bf2a11853dfa1dcad1f5afe7c13f6f7fb375470283aac9339f4117273283b05",
+        "size": 33451020,
+        "target": "sdmc:/switch/toronja/toronja-switch2.nro",
+        "source": "https://github.com/Olmectron/toronja"
+      }
+    },
+    {
+      "id": "dolphin-nx2",
+      "cover_id": "dolphin-nx2",
+      "name": "Dolphin NX2",
+      "category": "emulation",
+      "summary": "Emulador experimental de GameCube y Wii.",
+      "requirement": "Requiere imágenes de discos de tus propios juegos de GameCube o Wii.",
+      "source": "https://switch2homebrew.com/projects/dolphin-nx2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.0",
+        "url": "https://github.com/MegaCadeDev/dolphin-nx2/releases/download/v1.0.0/dolphin.nro",
+        "sha256": "e0a502e6e43d67b0c7394d0ee649d7c0a07f8c9c4b55300042f0c8c761224de7",
+        "size": 44676744,
+        "target": "sdmc:/switch/dolphin.nro",
+        "source": "https://github.com/MegaCadeDev/dolphin-nx2/releases/tag/v1.0.0"
+      }
+    },
+    {
+      "id": "cemu-nx2",
+      "cover_id": "cemu-nx2",
+      "name": "Cemu-NX2",
+      "category": "emulation",
+      "summary": "Emulador de Wii U adaptado a Switch 2.",
+      "requirement": "Requiere datos de tus juegos originales de Wii U y, si el formato lo exige, recursos de tu propia consola.",
+      "source": "https://switch2homebrew.com/projects/cemu-nx2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.4.1",
+        "url": "https://github.com/TheAJLive/Cemu-NX2/releases/download/v1.4.1/cemu-switch2.nro",
+        "sha256": "2e3faff528d0928bf48c5bd48743d62c31e58a45dd4d5b8fe080804a2c81643d",
+        "size": 89892006,
+        "target": "sdmc:/switch/cemu/cemu-switch2.nro",
+        "source": "https://github.com/TheAJLive/Cemu-NX2"
+      }
+    },
+    {
+      "id": "eden-on-switch-2",
+      "cover_id": "eden-on-switch-2",
+      "name": "Eden on Switch 2",
+      "category": "emulation",
+      "summary": "Emulador experimental de juegos de la primera Switch.",
+      "requirement": "Requiere tus juegos originales y las claves o el firmware que correspondan de tu propia consola.",
+      "source": "https://switch2homebrew.com/projects/eden-on-switch-2",
+      "package": {
+        "kind": "nro",
+        "version": "v0.5.0",
+        "url": "https://github.com/Olmectron/eden-switch2-poc/releases/download/v0.5.0/eden.nro",
+        "sha256": "038a70a35c59be1ea132749bfe879c44dc02b2eefe1fb8b4d18131d663906068",
+        "size": 42522821,
+        "target": "sdmc:/switch/eden.nro",
+        "source": "https://github.com/Olmectron/eden-switch2-poc/releases/tag/v0.5.0"
+      }
+    },
+    {
+      "id": "sw2ps2",
+      "cover_id": "sw2ps2",
+      "name": "SW2PS2",
+      "category": "emulation",
+      "summary": "Emulador de PlayStation 2 con interfaz nativa.",
+      "requirement": "Requiere imágenes de tus discos originales y la BIOS de tu propia PlayStation 2.",
+      "source": "https://switch2homebrew.com/projects/sw2ps2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.1.0",
+        "url": "https://github.com/Rodpad/SW2PS2/releases/download/v1.1.0/sw2ps2.nro",
+        "sha256": "789b7d05fe7aaf3435be4cdd4dc01693edc88bf00f29ed8ec315fce147cb4737",
+        "size": 43681225,
+        "target": "sdmc:/switch/sw2ps2/sw2ps2.nro",
+        "source": "https://github.com/Rodpad/SW2PS2"
+      }
+    },
+    {
+      "id": "ouncesx2",
+      "cover_id": "ouncesx2",
+      "name": "OunceSX2",
+      "category": "emulation",
+      "summary": "Port del núcleo ArmSX2 para emulación de PlayStation 2.",
+      "requirement": "Requiere imágenes de tus discos originales y la BIOS de tu propia PlayStation 2.",
+      "source": "https://switch2homebrew.com/projects/ouncesx2",
+      "package": {
+        "kind": "nro",
+        "version": "1.1",
+        "url": "https://github.com/nyathea/OunceSX2/releases/download/1.1/OunceSX2.nro",
+        "sha256": "5365cdec6953b6ae95b9ff083a97fbb71fb3ba11ad2287b155fe413a726b2f2f",
+        "size": 43124194,
+        "target": "sdmc:/switch/OunceSX2.nro",
+        "source": "https://github.com/nyathea/OunceSX2/releases/tag/1.1"
+      }
+    },
+    {
+      "id": "ppsspp-nx2-by-david-kalil",
+      "cover_id": "ppsspp-nx2-by-david-kalil",
+      "name": "PPSSPP-NX2 by David Kalil",
+      "category": "emulation",
+      "summary": "Port nativo de PPSSPP con compilación JIT.",
+      "requirement": "Requiere imágenes de tus juegos originales de PSP.",
+      "source": "https://switch2homebrew.com/projects/ppsspp-nx2-by-david-kalil",
+      "package": {
+        "kind": "nro",
+        "version": "v1.1.9",
+        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro",
+        "sha256": "5ada96c313055aa56391c0468efc72ea46a33944dea8436e420318b33a45948f",
+        "size": 67165694,
+        "target": "sdmc:/switch/ppsspp/PPSSPP-switch2.nro",
+        "source": "https://github.com/davidkalil10/ppsspp-nx2"
+      }
+    },
+    {
+      "id": "ppsspp-nx2-by-xitrix",
+      "cover_id": "ppsspp-nx2-by-xitrix",
+      "name": "PPSSPP-NX2 by XITRIX",
+      "category": "emulation",
+      "summary": "Port de PPSSPP con funciones experimentales de multijugador local.",
+      "requirement": "Requiere imágenes de tus juegos originales de PSP.",
+      "source": "https://switch2homebrew.com/projects/ppsspp-nx2-by-xitrix",
+      "package": {
+        "kind": "nro",
+        "version": "v0.1.0",
+        "url": "https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro",
+        "sha256": "9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3",
+        "size": 66816508,
+        "target": "sdmc:/switch/ppsspp-xitrix/PPSSPP-NX2.nro",
+        "source": "https://github.com/XITRIX/ppsspp-nx2"
+      }
+    },
+    {
+      "id": "vita3k-nx-and-vita3k-nx2",
+      "cover_id": "vita3k-nx-and-vita3k-nx2",
+      "name": "Vita3K-nx and Vita3K-nx2",
+      "category": "emulation",
+      "summary": "Emulador de PlayStation Vita adaptado a Switch 2.",
+      "requirement": "Requiere tus juegos originales de PS Vita y el firmware y fuentes oficiales que solicite Vita3K.",
+      "source": "https://switch2homebrew.com/projects/vita3k-nx-and-vita3k-nx2",
+      "package": {
+        "kind": "nro",
+        "version": "1.4.2",
+        "url": "https://github.com/NaGaa95/Vita3K-nx/releases/download/1.4.2/Vita3K-NX2.nro",
+        "sha256": "e22c2b72175d7e0384cb56f8656e8bfb862ced9d51cd8fb0870d195c88d8dbf6",
+        "size": 80882576,
+        "target": "sdmc:/switch/vita3k/Vita3K-NX2.nro",
+        "source": "https://github.com/NaGaa95/Vita3K-nx"
+      }
+    },
+    {
+      "id": "gravity-rush-nx2",
+      "cover_id": "gravity-rush-nx2",
+      "name": "Gravity Rush NX2",
+      "category": "emulation",
+      "summary": "Versión de Vita3K dedicada a Gravity Rush.",
+      "requirement": "Requiere tu copia original de Gravity Rush y los datos compatibles que solicite el port.",
+      "source": "https://switch2homebrew.com/projects/gravity-rush-nx2",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/Bryce4643/Gravity-Rush-NX2/releases/download/v1.0.0/GravityRush-NX2-v1.0.0.zip",
+        "sha256": "418ed4a139fe00e97efcf3f94ddfe23502f67921b600560a6a070dd2ceabf639",
+        "size": 18087287,
+        "target": "sdmc:/switch/gravityrush",
+        "source": "https://github.com/Bryce4643/Gravity-Rush-NX2",
+        "archive_root": "GravityRush-NX2-v1.0.0/switch/gravityrush",
+        "marker": "GravityRush.nro"
+      }
+    },
+    {
+      "id": "kaikart",
+      "cover_id": "kaikart",
+      "name": "KaiKart",
+      "category": "ports",
+      "summary": "Lanzador para Mario Kart Wii y Retro Rewind en Switch 2.",
+      "requirement": "Requiere una imagen PAL sin modificar de tu disco original de Mario Kart Wii (RMCP01).",
+      "source": "https://switch2homebrew.com/projects/kaikart",
+      "package": {
+        "kind": "nro",
+        "version": "v0.4.1",
+        "url": "https://github.com/6rimson/KaiKart/releases/download/v0.4.1/KaiKart-0.4.1.nro",
+        "sha256": "88156ebe9fc5142264b36159d6c58501d723adc79c00e5b495a8f2de12e0b16b",
+        "size": 2341690,
+        "target": "sdmc:/switch/KaiKart-0.4.1.nro",
+        "source": "https://github.com/6rimson/KaiKart/releases/tag/v0.4.1"
+      }
+    },
+    {
+      "id": "dusklight",
+      "cover_id": "dusklight",
+      "name": "Dusklight",
+      "category": "ports",
+      "summary": "Port nativo de Twilight Princess para Switch 2.",
+      "requirement": "Requiere los datos de tu disco original compatible de GameCube.",
+      "source": "https://switch2homebrew.com/projects/dusklight",
+      "package": {
+        "kind": "nro",
+        "version": "v2.0.3-switch2-1",
+        "url": "https://github.com/wowilookgood/dusklight/releases/download/v2.0.3-switch2-1/dusklight.nro",
+        "sha256": "ba572af4b7edd1d6793b769e3e375220f928d7dd8dd71a422e042559b0213d80",
+        "size": 58616767,
+        "target": "sdmc:/switch/dusklight/dusklight.nro",
+        "source": "https://github.com/wowilookgood/dusklight"
+      }
+    },
+    {
+      "id": "super-smash-bros-melee",
+      "cover_id": "super-smash-bros-melee",
+      "name": "Super Smash Bros. Melee",
+      "category": "ports",
+      "summary": "Port nativo de Melee con soporte para 20XX Tournament Edition.",
+      "requirement": "Requiere los datos de tu disco original NTSC 1.02 de Super Smash Bros. Melee.",
+      "source": "https://switch2homebrew.com/projects/super-smash-bros-melee",
+      "package": {
+        "kind": "nro",
+        "version": "v0.9a",
+        "url": "https://github.com/Prlxd/melee-switch2-port/releases/download/v0.9a/melee-switch2-port.nro",
+        "sha256": "974ca086463b3ed91252f211dfe397c070ac52748a75e36bbdc55d88c358d583",
+        "size": 32743652,
+        "target": "sdmc:/switch/melee-switch2-port.nro",
+        "source": "https://github.com/Prlxd/melee-switch2-port"
+      }
+    },
+    {
+      "id": "skate-3",
+      "cover_id": "skate-3",
+      "name": "Skate 3",
+      "category": "ports",
+      "summary": "Recompilación experimental de Skate 3 para Switch 2.",
+      "requirement": "Requiere datos de tu juego original de Xbox 360, Title Update 3 y los recursos preparados que indica el proyecto.",
+      "source": "https://switch2homebrew.com/projects/skate-3",
+      "package": null
+    },
+    {
+      "id": "lost-odyssey-recomp",
+      "cover_id": "lost-odyssey-recomp",
+      "name": "Lost Odyssey Recomp",
+      "category": "ports",
+      "summary": "Recompilación nativa del RPG de Xbox 360.",
+      "requirement": "Requiere tus discos originales de Lost Odyssey y preparar en la SD los datos de las cuatro partes.",
+      "source": "https://switch2homebrew.com/projects/lost-odyssey-recomp",
+      "package": {
+        "kind": "zip",
+        "version": "v0.2.0",
+        "url": "https://github.com/Jorsall1/LostOdysseyRecomp/releases/download/v0.2.0/LostOdysseyRecomp-Switch2-v0.2.0.zip",
+        "sha256": "700cdeddad14d6f592e161ecb9b32510b19f0928f0292f69234c32d1e87629e7",
+        "size": 182628838,
+        "target": "sdmc:/switch/LostOdysseyRecomp",
+        "source": "https://github.com/Jorsall1/LostOdysseyRecomp/releases/tag/v0.2.0",
+        "archive_root": "switch/LostOdysseyRecomp",
+        "marker": "LostOdysseyRecomp.nro"
+      }
+    },
+    {
+      "id": "sonic-unleashed-recompiled",
+      "cover_id": "sonic-unleashed-recompiled",
+      "name": "Sonic Unleashed Recompiled",
+      "category": "ports",
+      "summary": "Recompilación experimental de Sonic Unleashed para Switch 2.",
+      "requirement": "Requiere los datos de tu copia original compatible de Sonic Unleashed para Xbox 360.",
+      "source": "https://switch2homebrew.com/projects/sonic-unleashed-recompiled",
+      "package": {
+        "kind": "nro",
+        "version": "1.0.0",
+        "url": "https://github.com/Lightmaxifrvr/UnleashedRecomp-NX2/releases/download/1.0.0/UnleashedRecomp.nro",
+        "sha256": "885f9e9f7b3ddf882d1ca92849af6938c8d4c2bd96e3ffcaaa44968fd1a8327a",
+        "size": 84844494,
+        "target": "sdmc:/switch/UnleashedRecomp.nro",
+        "source": "https://github.com/Lightmaxifrvr/UnleashedRecomp-NX2"
+      }
+    },
+    {
+      "id": "donkey-kong-country-2-and-3",
+      "cover_id": "donkey-kong-country-2-and-3",
+      "name": "Donkey Kong Country 2",
+      "category": "ports",
+      "summary": "Recompilación nativa de Donkey Kong Country 2 para Switch 2.",
+      "requirement": "Requiere los datos de una copia original compatible de Donkey Kong Country 2 para Super Nintendo.",
+      "source": "https://switch2homebrew.com/projects/donkey-kong-country-2-and-3",
+      "package": {
+        "kind": "nro",
+        "version": "v0.0.5-oz1",
+        "url": "https://github.com/souldbminerr/DKC2Recomp-NX/releases/download/v0.0.5-oz1/dkc2.nro",
+        "sha256": "01ecd74a67612dc8903ac5d7e77a95642e40be58d163293fc5b0fbd6d3fb3690",
+        "size": 33604098,
+        "target": "sdmc:/switch/dkc2/dkc2.nro",
+        "source": "https://github.com/souldbminerr/DKC2Recomp-NX"
+      }
+    },
+    {
+      "id": "donkey-kong-country-3",
+      "cover_id": "donkey-kong-country-2-and-3",
+      "name": "Donkey Kong Country 3",
+      "category": "ports",
+      "summary": "Recompilación nativa de Donkey Kong Country 3 para Switch 2.",
+      "requirement": "Requiere los datos de una copia original compatible de Donkey Kong Country 3 para Super Nintendo.",
+      "source": "https://switch2homebrew.com/projects/donkey-kong-country-2-and-3",
+      "package": {
+        "kind": "nro",
+        "version": "v0.0.5-oz1",
+        "url": "https://github.com/souldbminerr/DKC3Recomp-NX/releases/download/v0.0.5-oz1/dkc3.nro",
+        "sha256": "1b6b9358dc9c9c380e670785eae729b38a4f9f7ae5dcc41a50522ffa179d6544",
+        "size": 31566239,
+        "target": "sdmc:/switch/dkc3/dkc3.nro",
+        "source": "https://github.com/souldbminerr/DKC3Recomp-NX"
+      }
+    },
+    {
+      "id": "pokemon-platinum",
+      "cover_id": "pokemon-platinum",
+      "name": "Pokémon Platinum",
+      "category": "ports",
+      "summary": "Port nativo de Pokémon Platino con control táctil.",
+      "requirement": "Requiere una ROM extraída de tu cartucho original de Pokémon Platino; el programa prepara sus datos.",
+      "source": "https://switch2homebrew.com/projects/pokemon-platinum",
+      "package": null
+    },
+    {
+      "id": "super-mario-64-ex-alo",
+      "cover_id": "super-mario-64-ex-alo",
+      "name": "Super Mario 64 EX Alo",
+      "category": "ports",
+      "summary": "Versión del port sm64ex adaptada a Switch 2.",
+      "requirement": "Requiere crear base.zip con la edición original estadounidense compatible de Super Mario 64.",
+      "source": "https://switch2homebrew.com/projects/super-mario-64-ex-alo",
+      "package": {
+        "kind": "zip",
+        "version": "v20261114",
+        "url": "https://github.com/NerdsMcGee/sm64ex-alo-s2/releases/download/v20261114/sm64ex-alo-s2-20261114.zip",
+        "sha256": "76200a0536b3d11513ddd0b2fcaa13ffb0ac88629a7f0301334829563b3000c0",
+        "size": 8397044,
+        "target": "sdmc:/switch/sm64ex-alo",
+        "source": "https://github.com/NerdsMcGee/sm64ex-alo-s2/releases/tag/v20261114",
+        "archive_root": "sm64ex-alo-s2-20261114",
+        "marker": "sm64ex-alo.nro"
+      }
+    },
+    {
+      "id": "metroid-zero-mission-nx",
+      "cover_id": "metroid-zero-mission-nx",
+      "name": "Metroid: Zero Mission NX",
+      "category": "ports",
+      "summary": "Reimplementación nativa de Metroid: Zero Mission con mapa y ajustes.",
+      "requirement": "Requiere una ROM de tu cartucho original compatible de Metroid: Zero Mission para GBA.",
+      "source": "https://switch2homebrew.com/projects/metroid-zero-mission-nx",
+      "package": {
+        "kind": "nro",
+        "version": "nx-switch2-v1.4",
+        "url": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX/releases/download/nx-switch2-v1.4/mzmnx-switch2.nro",
+        "sha256": "05f5292691d1395fb5bdca7681fb78544eb21ba4817f8abacf283f8b67541593",
+        "size": 11832868,
+        "target": "sdmc:/switch/mzmnx/mzmnx-switch2.nro",
+        "source": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX"
+      }
+    },
+    {
+      "id": "sonic-3-a-i-r",
+      "cover_id": "sonic-3-a-i-r",
+      "name": "Sonic 3 A.I.R.",
+      "category": "ports",
+      "summary": "Port nativo de Sonic 3 A.I.R. para Switch 2.",
+      "requirement": "Requiere el archivo original compatible de Sonic 3 & Knuckles en la carpeta savedata del port.",
+      "source": "https://switch2homebrew.com/projects/sonic-3-a-i-r",
+      "package": null
+    },
+    {
+      "id": "sonic-robo-blast-2",
+      "cover_id": "sonic-robo-blast-2",
+      "name": "Sonic Robo Blast 2",
+      "category": "ports",
+      "summary": "Juego de plataformas 3D creado por fans y adaptado a Switch 2.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/sonic-robo-blast-2",
+      "package": null
+    },
+    {
+      "id": "dr-robotniks-ring-racers",
+      "cover_id": "dr-robotniks-ring-racers",
+      "name": "Dr. Robotnik's Ring Racers",
+      "category": "ports",
+      "summary": "Juego de carreras de Kart Krew adaptado a Switch 2.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/dr-robotniks-ring-racers",
+      "package": {
+        "kind": "zip",
+        "version": "v2.4",
+        "url": "https://github.com/misshexa66/RingRacers-Ounce/releases/download/v2.4/Dr.Robotnik.s-Ring-Racers-v2.4-Ounce.zip",
+        "sha256": "0c1b2a5952b74024cd86d5f774a86c01dcee582f655ceac343f4519fc17406bc",
+        "size": 762891506,
+        "target": "sdmc:/switch/ringracers-ounce",
+        "source": "https://github.com/misshexa66/RingRacers-Ounce/releases/tag/v2.4",
+        "archive_root": "switch/ringracers-ounce",
+        "marker": "ringracers-switch2.nro"
+      }
+    },
+    {
+      "id": "xstarbound",
+      "cover_id": "xstarbound",
+      "name": "xStarbound",
+      "category": "ports",
+      "summary": "Motor mejorado de Starbound adaptado a Switch 2.",
+      "requirement": "Requiere los archivos de una copia original de Starbound en Steam.",
+      "source": "https://switch2homebrew.com/projects/xstarbound",
+      "package": {
+        "kind": "zip",
+        "version": "1.0.3",
+        "url": "https://github.com/Sergaliciousnes/xStarbound-Switch2/releases/download/switch2-v1.0.3/xStarbound-Switch2-v1.0.3.zip",
+        "sha256": "64018012faf121837074362000edf7a7e80ab29564b0429f1d6dd62c3382fc36",
+        "size": 29540948,
+        "target": "sdmc:/switch/xstarbound",
+        "source": "https://github.com/Sergaliciousnes/xStarbound-Switch2",
+        "archive_root": "switch/xstarbound",
+        "marker": "xStarbound.nro"
+      }
+    },
+    {
+      "id": "openrct2",
+      "cover_id": "openrct2",
+      "name": "OpenRCT2",
+      "category": "ports",
+      "summary": "Motor libre de RollerCoaster Tycoon 2 con controles táctiles.",
+      "requirement": "Requiere los archivos de una copia original compatible de RollerCoaster Tycoon 2.",
+      "source": "https://switch2homebrew.com/projects/openrct2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0-ounce",
+        "url": "https://github.com/souldbminerr/OpenRCT2-Switch/releases/download/v1.0-ounce/openrct2.nro",
+        "sha256": "9c129e383c5f48186ca46a10e7ed1c221e4057b8e4943bff01a8a2d18a7782f4",
+        "size": 34373336,
+        "target": "sdmc:/switch/openrct2/openrct2.nro",
+        "source": "https://github.com/souldbminerr/OpenRCT2-Switch"
+      }
+    },
+    {
+      "id": "cave-story-nxengine-evo",
+      "cover_id": "cave-story-nxengine-evo",
+      "name": "Cave Story / NXEngine-evo",
+      "category": "ports",
+      "summary": "Port nativo del motor abierto de Cave Story.",
+      "requirement": "Si el motor solicita los recursos, usa los datos de la edición freeware original de Cave Story.",
+      "source": "https://switch2homebrew.com/projects/cave-story-nxengine-evo",
+      "package": {
+        "kind": "nro",
+        "version": "v2.6.5-oz",
+        "url": "https://github.com/ya-v-ia/ounce-nxengine-evo/releases/download/v2.6.5-oz/Ounce-NXEngine-Evo-2.6.5.nro",
+        "sha256": "47d456b3b221db54b6a2f8ada0d0c56549f90f9d0a8808df1ce1bb440256e30f",
+        "size": 58013138,
+        "target": "sdmc:/switch/ounce-nxengine-evo/Ounce-NXEngine-Evo-2.6.5.nro",
+        "source": "https://github.com/ya-v-ia/ounce-nxengine-evo"
+      }
+    },
+    {
+      "id": "angry-birds-reloaded",
+      "cover_id": "angry-birds-reloaded",
+      "name": "Angry Birds Reloaded",
+      "category": "ports",
+      "summary": "Capa de compatibilidad experimental para Angry Birds Reloaded.",
+      "requirement": "Requiere los archivos y bibliotecas de una copia original compatible (versión 2.2.16218).",
+      "source": "https://switch2homebrew.com/projects/angry-birds-reloaded",
+      "package": {
+        "kind": "nro",
+        "version": "1.0.2",
+        "url": "https://github.com/githubuser77777/abreloaded_nx2/releases/download/1.0.2/abreloaded_nx.nro",
+        "sha256": "9f276f2ab731a15db118ffd46d79b1086dd4f1dd7376ddabc95df1e4ee63e482",
+        "size": 18048453,
+        "target": "sdmc:/switch/abreloaded/abreloaded_nx.nro",
+        "source": "https://github.com/githubuser77777/abreloaded_nx2"
+      }
+    },
+    {
+      "id": "scummvm-s2",
+      "cover_id": "scummvm-s2",
+      "name": "ScummVM-S2",
+      "category": "ports",
+      "summary": "Colección de motores para aventuras clásicas adaptada a Switch 2.",
+      "requirement": "Añade los datos de tus copias originales de los juegos compatibles.",
+      "source": "https://switch2homebrew.com/projects/scummvm-s2",
+      "package": {
+        "kind": "zip",
+        "version": "v2026.4.0-s2.5",
+        "url": "https://github.com/Netfreak25/scummvm-s2/releases/download/v2026.4.0-s2.5/scummvm-s2-2026.4.0-s2.5-default-engines.zip",
+        "sha256": "0b82c8cae25bab4aaafbcc1283b8292a51b483631ba9d8ad990d752a29e88a08",
+        "size": 121614261,
+        "target": "sdmc:/switch/scummvm",
+        "source": "https://github.com/Netfreak25/scummvm-s2",
+        "archive_root": "scummvm",
+        "marker": "scummvm.nro"
+      }
+    },
+    {
+      "id": "nic-cage-eats-stuff",
+      "cover_id": "nic-cage-eats-stuff",
+      "name": "Nic Cage Eats Stuff",
+      "category": "ports",
+      "summary": "Pequeño juego homebrew para Switch 2.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/nic-cage-eats-stuff",
+      "package": {
+        "kind": "nro",
+        "version": "release",
+        "url": "https://github.com/PennyLoafer5/nces-switch2/releases/download/release/nces-switch2.nro",
+        "sha256": "92325e17e71faa6d8f74a9e941c0b82b19118b31d0024c2131ebd3ec6b8fa384",
+        "size": 22086845,
+        "target": "sdmc:/switch/nces-switch2.nro",
+        "source": "https://github.com/PennyLoafer5/nces-switch2"
+      }
+    },
+    {
+      "id": "ouncedonut-and-bad-apple",
+      "cover_id": "ouncedonut-and-bad-apple",
+      "name": "OunceDonut",
+      "category": "ports",
+      "summary": "Demostración gráfica de un donut giratorio en la consola.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/ouncedonut-and-bad-apple",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0",
+        "url": "https://github.com/Rix565/ouncedonut/releases/download/v1.0/Donut.nro",
+        "sha256": "8f8c1cd79a2b21f0d57ae349b971bd35ebee8cf15400da62fe22208e8f07882f",
+        "size": 24994521,
+        "target": "sdmc:/switch/donut/Donut.nro",
+        "source": "https://github.com/Rix565/ouncedonut"
+      }
+    },
+    {
+      "id": "moonlight-nx2-by-azkali",
+      "cover_id": "moonlight-nx2-by-azkali",
+      "name": "Moonlight-nx2 by Azkali",
+      "category": "media",
+      "summary": "Cliente de juego remoto con audio y decodificación de vídeo por hardware.",
+      "requirement": "Requiere un equipo anfitrión con Sunshine configurado.",
+      "source": "https://switch2homebrew.com/projects/moonlight-nx2-by-azkali",
+      "package": null
+    },
+    {
+      "id": "moonlight-switch-by-xitrix",
+      "cover_id": "moonlight-switch-by-xitrix",
+      "name": "Moonlight-Switch by XITRIX",
+      "category": "media",
+      "summary": "Cliente de juego remoto con soporte de mandos y ratón Joy-Con.",
+      "requirement": "Requiere un equipo anfitrión con Sunshine configurado.",
+      "source": "https://switch2homebrew.com/projects/moonlight-switch-by-xitrix",
+      "package": null
+    },
+    {
+      "id": "super-moonlight-nx2",
+      "cover_id": "super-moonlight-nx2",
+      "name": "Super Moonlight NX2",
+      "category": "media",
+      "summary": "Cliente Moonlight para Switch 2 con acceso remoto opcional mediante Tailscale.",
+      "requirement": "Requiere Sunshine en el equipo anfitrión. El acceso remoto puede necesitar una cuenta Tailscale.",
+      "source": "https://switch2homebrew.com/projects/super-moonlight-nx2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.0",
+        "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro",
+        "sha256": "732efef01dae852adfffe2dfee9f027deaa38f2a3167501b1ca53654aef98328",
+        "size": 13822737,
+        "target": "sdmc:/switch/moonlight-nx2/super-moonlight-nx2.nro",
+        "source": "https://github.com/davidkalil10/super-moonlight-nx2/releases/tag/v1.0.0"
+      }
+    },
+    {
+      "id": "punktfunk",
+      "cover_id": "punktfunk",
+      "name": "PunktFunk",
+      "category": "media",
+      "summary": "Cliente alternativo de juego remoto para Switch 2.",
+      "requirement": "Requiere el servidor PunktFunk correspondiente en un ordenador.",
+      "source": "https://switch2homebrew.com/projects/punktfunk",
+      "package": {
+        "kind": "nro",
+        "version": "v0.1.0",
+        "url": "https://github.com/d0vere/punktfunk-client-switch2/releases/download/v0.1.0/punktfunk-switch2.nro",
+        "sha256": "7f8a533dd07cdd7a338cd0b1612982ccb4819d03cee1c7664349a030b2c28457",
+        "size": 41140096,
+        "target": "sdmc:/switch/punktfunk/punktfunk-switch2.nro",
+        "source": "https://github.com/d0vere/punktfunk-client-switch2"
+      }
+    },
+    {
+      "id": "chiaki-ng-akira",
+      "cover_id": "chiaki-ng-akira",
+      "name": "Chiaki-ng / Akira",
+      "category": "media",
+      "summary": "Cliente no oficial de Uso a distancia de PlayStation.",
+      "requirement": "Requiere tu PS4 o PS5 con Uso a distancia configurado.",
+      "source": "https://switch2homebrew.com/projects/chiaki-ng-akira",
+      "package": {
+        "kind": "nro",
+        "version": "v0.3.2",
+        "url": "https://github.com/chiaki-ng/akira-ounce/releases/download/v0.3.2/akira.nro",
+        "sha256": "820cf53c1b9774963f3ff1efff5d432708b165b0972964aa76f5c615c4b4ba85",
+        "size": 24902240,
+        "target": "sdmc:/switch/akira/akira.nro",
+        "source": "https://github.com/chiaki-ng/akira-ounce"
+      }
+    },
+    {
+      "id": "green-nx",
+      "cover_id": "green-nx",
+      "name": "Green NX",
+      "category": "media",
+      "summary": "Cliente no oficial de Xbox Cloud Gaming.",
+      "requirement": "Requiere una cuenta Xbox compatible y acceso al servicio de juego en la nube.",
+      "source": "https://switch2homebrew.com/projects/green-nx",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.31pre1-switch2",
+        "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro",
+        "sha256": "11bea13202099c530f1b4e7bc9a58300430e2de4e6b3d213af460639fe51d9c4",
+        "size": 22575167,
+        "target": "sdmc:/switch/green-nx/green-nx-switch2.nro",
+        "source": "https://github.com/davidkalil10/green-nx_switch-2/releases/tag/v1.0.31pre1-switch2"
+      }
+    },
+    {
+      "id": "switchnow",
+      "cover_id": "switchnow",
+      "name": "SwitchNOW",
+      "category": "media",
+      "summary": "Cliente no oficial de GeForce NOW para Switch 2.",
+      "requirement": "Requiere una cuenta de GeForce NOW y acceso al servicio.",
+      "source": "https://switch2homebrew.com/projects/switchnow",
+      "package": {
+        "kind": "nro",
+        "version": "v1.3.0",
+        "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro",
+        "sha256": "2591acba44f99645a9b1de80eac8aef7ae7a8d70083492fd0a4014b8ef38eeb3",
+        "size": 47569574,
+        "target": "sdmc:/switch/switch2now/SwitchNOW-switch2.nro",
+        "source": "https://github.com/davidkalil10/Switch2NOW"
+      }
+    },
+    {
+      "id": "chromium-nx",
+      "cover_id": "chromium-nx",
+      "name": "Chromium NX",
+      "category": "media",
+      "summary": "Navegador Chromium para Switch 2 con pantalla táctil y teclado.",
+      "requirement": "Puede necesitar conexión para obtener sus recursos iniciales.",
+      "source": "https://switch2homebrew.com/projects/chromium-nx",
+      "package": {
+        "kind": "nro",
+        "version": "v0.2.0",
+        "url": "https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx2.nro",
+        "sha256": "68652106987d72abd3423b43fff5e4d5f1499ff167e8197c178559e49f0aeab2",
+        "size": 39704030,
+        "target": "sdmc:/switch/chromium-nx/chromium-nx2.nro",
+        "source": "https://github.com/shodowlo/chromium-nx"
+      }
+    },
+    {
+      "id": "kaivideo",
+      "cover_id": "kaivideo",
+      "name": "KaiVideo",
+      "category": "media",
+      "summary": "Reproductor de vídeo local y cliente multimedia para Switch 2.",
+      "requirement": "Usa tus propios vídeos o un servidor Jellyfin, Emby o Plex autorizado.",
+      "source": "https://switch2homebrew.com/projects/kaivideo",
+      "package": {
+        "kind": "nro",
+        "version": "v1.15.0",
+        "url": "https://github.com/mizuiroame/kaivideo/releases/download/v1.15.0/KaiVideo.nro",
+        "sha256": "9d93a307517845cd1a665181ab93eed32001e4d81297b254272a4515c10f7e49",
+        "size": 28524642,
+        "target": "sdmc:/switch/kaivideo/KaiVideo.nro",
+        "source": "https://github.com/mizuiroame/kaivideo"
+      }
+    },
+    {
+      "id": "kaitube",
+      "cover_id": "kaitube",
+      "name": "KaiTube",
+      "category": "media",
+      "summary": "Cliente de vídeo para YouTube en Switch 2.",
+      "requirement": "Requiere conexión a Internet.",
+      "source": "https://switch2homebrew.com/projects/kaitube",
+      "package": {
+        "kind": "nro",
+        "version": "v0.0.2-beta",
+        "url": "https://github.com/Sank-kab/KaiTube/releases/download/v0.0.2-beta/KaiTube-beta0.0.2.nro",
+        "sha256": "6c6b57dbf16629d864135761f31c9f4410fdef9ffd66db7ff0af47a08e2c5c6a",
+        "size": 47938914,
+        "target": "sdmc:/switch/kaitube/KaiTube-beta0.0.2.nro",
+        "source": "https://github.com/Sank-kab/KaiTube"
+      }
+    },
+    {
+      "id": "kaiplayer",
+      "cover_id": "kaiplayer",
+      "name": "KaiPlayer",
+      "category": "media",
+      "summary": "Reproductor de música local con biblioteca, ecualizador y listas.",
+      "requirement": "Añade tus propios archivos de música a la microSD.",
+      "source": "https://switch2homebrew.com/projects/kaiplayer",
+      "package": {
+        "kind": "nro",
+        "version": "v1.4.0",
+        "url": "https://github.com/mizuiroame/kaiplayer/releases/download/v1.4.0/KaiPlayer.nro",
+        "sha256": "c80be32f0731aaa28c421db302903622061566fe8407c74cffb73ebfd1bd2bd0",
+        "size": 20685546,
+        "target": "sdmc:/switch/kaiplayer/KaiPlayer.nro",
+        "source": "https://github.com/mizuiroame/kaiplayer"
+      }
+    },
+    {
+      "id": "kairadio",
+      "cover_id": "kairadio",
+      "name": "KaiRadio",
+      "category": "media",
+      "summary": "Reproductor de emisoras por Internet con favoritos.",
+      "requirement": "Requiere conexión a Internet para cargar Radio Browser y las emisoras.",
+      "source": "https://switch2homebrew.com/projects/kairadio",
+      "package": {
+        "kind": "nro",
+        "version": "v1.4.0",
+        "url": "https://github.com/mizuiroame/kairadio/releases/download/v1.4.0/KaiRadio.nro",
+        "sha256": "b48c176393a9def4edb68baaa2009b9f00ae7a27cecb9538cc5f003dcea5b9ac",
+        "size": 21794369,
+        "target": "sdmc:/switch/kairadio/KaiRadio.nro",
+        "source": "https://github.com/mizuiroame/kairadio"
+      }
+    },
+    {
+      "id": "switchfin-nx2",
+      "cover_id": "switchfin-nx2",
+      "name": "Switchfin NX2",
+      "category": "media",
+      "summary": "Cliente Jellyfin adaptado a Switch 2.",
+      "requirement": "Requiere acceso a tu servidor Jellyfin.",
+      "source": "https://switch2homebrew.com/projects/switchfin-nx2",
+      "package": {
+        "kind": "nro",
+        "version": "1.0.3",
+        "url": "https://github.com/Lucaspec72/switchfin/releases/download/1.0.3/SwitchfinNX2.nro",
+        "sha256": "3b21d33743423385313411fcc890932ce186f846ee3752d782dbcf6428b53e9e",
+        "size": 42790523,
+        "target": "sdmc:/switch/SwitchfinNX2/SwitchfinNX2.nro",
+        "source": "https://github.com/Lucaspec72/switchfin"
+      }
+    },
+    {
+      "id": "gamepad-media-center-aggregator",
+      "cover_id": "gamepad-media-center-aggregator",
+      "name": "Gamepad Media Center Aggregator",
+      "category": "media",
+      "summary": "Cliente para Plex, Jellyfin, Emby y otros servicios multimedia.",
+      "requirement": "Requiere acceso a un servidor multimedia o servicio autorizado.",
+      "source": "https://switch2homebrew.com/projects/gamepad-media-center-aggregator",
+      "package": {
+        "kind": "zip",
+        "version": "v1.5.0",
+        "url": "https://github.com/thcolin/gamepad-media-center-aggregator/releases/download/v1.5.0/GMCA-switch2.nro.zip",
+        "sha256": "a97bd6f5a4ae9fa96be36bc7fc6bdfa79d5de4fe38c6ad7e56908687003165f8",
+        "size": 21482244,
+        "target": "sdmc:/switch/GMCA",
+        "source": "https://github.com/thcolin/gamepad-media-center-aggregator",
+        "archive_root": "",
+        "marker": "GMCA-switch2.nro"
+      }
+    },
+    {
+      "id": "stremnx2",
+      "cover_id": "stremnx2",
+      "name": "StremNX2",
+      "category": "media",
+      "summary": "Cliente no oficial de Stremio para Switch 2.",
+      "requirement": "Requiere conexión y las fuentes de contenido a las que tengas acceso autorizado.",
+      "source": "https://switch2homebrew.com/projects/stremnx2",
+      "package": {
+        "kind": "nro",
+        "version": "v0.3.2",
+        "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro",
+        "sha256": "f333ee836ba596e8fa596eaa854e09c0b00efdc859f14604394c7adeb5d47fd7",
+        "size": 41582595,
+        "target": "sdmc:/switch/stremnx-switch2.nro",
+        "source": "https://github.com/davidkalil10/StremNX2/releases/tag/v0.3.2"
+      }
+    },
+    {
+      "id": "switch2iptv",
+      "cover_id": "switch2iptv",
+      "name": "Switch2IPTV",
+      "category": "media",
+      "summary": "Reproductor IPTV con listas M3U, guía y favoritos.",
+      "requirement": "Requiere tu propia lista M3U o credenciales de un servicio autorizado.",
+      "source": "https://switch2homebrew.com/projects/switch2iptv",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.8",
+        "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch-switch2.nro",
+        "sha256": "70b76e5a8f8c9df425936c5a8d3d6b9ade049863398b5fd2ac2d52810957074b",
+        "size": 47106853,
+        "target": "sdmc:/switch/switch2iptv/IptvPlayerSwitch-switch2.nro",
+        "source": "https://github.com/davidkalil10/switch2iptv"
+      }
+    },
+    {
+      "id": "sphaira",
+      "cover_id": "sphaira",
+      "name": "Sphaira",
+      "category": "utilities",
+      "summary": "Menú homebrew alternativo con gestor de archivos para Switch 2.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/sphaira",
+      "package": {
+        "kind": "zip",
+        "version": "1.1.1",
+        "url": "https://github.com/NaGaa95/sphaira/releases/download/1.1.1/sphaira.zip",
+        "sha256": "776eed26cfc46545e07ab04379761eec787dbad1fecde09321cc35ff9dbfc9df",
+        "size": 4433180,
+        "target": "sdmc:/switch/sphaira",
+        "source": "https://github.com/NaGaa95/sphaira/releases/tag/1.1.1",
+        "archive_root": "nx2/switch/sphaira",
+        "marker": "sphaira.nro"
+      }
+    },
+    {
+      "id": "iz2s-cheese",
+      "cover_id": "iz2s-cheese",
+      "name": "IZ2S Cheese",
+      "category": "utilities",
+      "summary": "Tienda homebrew alternativa con versión NRO para Switch 2.",
+      "requirement": "Los módulos IZA necesitan la plataforma correspondiente; aquí se ofrece el ejecutable NRO.",
+      "source": "https://switch2homebrew.com/projects/iz2s-cheese",
+      "package": {
+        "kind": "nro",
+        "version": "v0.8.1",
+        "url": "https://github.com/byizmysh/iz2s-cheese/releases/download/v0.8.1/iz2s-cheese.nro",
+        "sha256": "6c47182527270345ba61e1d735d2bb0f57269eb72bd3f27080f32dde21ec2cbf",
+        "size": 1250043,
+        "target": "sdmc:/switch/iz2s-cheese/iz2s-cheese.nro",
+        "source": "https://github.com/byizmysh/iz2s-cheese/releases/tag/v0.8.1"
+      }
+    },
+    {
+      "id": "sw2transfer",
+      "cover_id": "sw2transfer",
+      "name": "SW2Transfer",
+      "category": "utilities",
+      "summary": "Gestor de archivos por navegador para la microSD de Switch 2.",
+      "requirement": "Para transferir archivos, conecta el otro dispositivo a la misma red local.",
+      "source": "https://switch2homebrew.com/projects/sw2transfer",
+      "package": {
+        "kind": "nro",
+        "version": "v2.0.0",
+        "url": "https://github.com/Rodpad/SW2Transfer/releases/download/v2.0.0/sw2transfer.nro",
+        "sha256": "00573c9755e5726c3ed0804bc62e18cd5a4be696fe5edf4e3e2fd84bd568f730",
+        "size": 21369909,
+        "target": "sdmc:/switch/sw2transfer/sw2transfer.nro",
+        "source": "https://github.com/Rodpad/SW2Transfer"
+      }
+    },
+    {
+      "id": "checkpoint",
+      "cover_id": "checkpoint",
+      "name": "Checkpoint",
+      "category": "utilities",
+      "summary": "Herramienta para copiar y restaurar partidas guardadas.",
+      "requirement": "Conserva una copia de tus partidas antes de restaurar.",
+      "source": "https://switch2homebrew.com/projects/checkpoint",
+      "package": {
+        "kind": "nro",
+        "version": "v5.3.0-switch2-1",
+        "url": "https://github.com/wowilookgood/Checkpoint/releases/download/v5.3.0-switch2-1/Checkpoint-hen.nro",
+        "sha256": "aa11bf9567b5469bd8a2479e2060c8be1c4beb3f82cb4370233f68e5cab58fc2",
+        "size": 21280085,
+        "target": "sdmc:/switch/checkpoint/Checkpoint-hen.nro",
+        "source": "https://github.com/wowilookgood/Checkpoint"
+      }
+    },
+    {
+      "id": "pksm",
+      "cover_id": "pksm",
+      "name": "PKSM",
+      "category": "utilities",
+      "summary": "Gestor de partidas de Pokémon compatibles.",
+      "requirement": "Usa tus propias partidas guardadas. Guarda una copia antes de editar.",
+      "source": "https://switch2homebrew.com/projects/pksm",
+      "package": {
+        "kind": "nro",
+        "version": "10.4.0-switch2-1",
+        "url": "https://github.com/wowilookgood/PKSM/releases/download/10.4.0-switch2-1/PKSM-hen.nro",
+        "sha256": "5d406215feba4c33483829855b21eaad18be5e2142b0ab3204dc2e3d63a2f860",
+        "size": 28274964,
+        "target": "sdmc:/switch/pksm/PKSM-hen.nro",
+        "source": "https://github.com/wowilookgood/PKSM"
+      }
+    },
+    {
+      "id": "nhse",
+      "cover_id": "nhse",
+      "name": "NHSE",
+      "category": "utilities",
+      "summary": "Editor de partidas de Animal Crossing: New Horizons.",
+      "requirement": "Necesita una copia de tu partida exportada. Conserva el original.",
+      "source": "https://switch2homebrew.com/projects/nhse",
+      "package": {
+        "kind": "nro",
+        "version": "v4.1.0",
+        "url": "https://github.com/sh00kapic/nhse/releases/download/v4.1.0/nhse.nro",
+        "sha256": "2fb828a310f23dbdeb327dee73f8adf65967902a7a34ae6ca8341eefdaa1fa3c",
+        "size": 9690681,
+        "target": "sdmc:/switch/nhse.nro",
+        "source": "https://github.com/sh00kapic/nhse"
+      }
+    },
+    {
+      "id": "nxgallery",
+      "cover_id": "nxgallery",
+      "name": "NXGallery",
+      "category": "utilities",
+      "summary": "Acceso a las capturas y vídeos de la consola por red local.",
+      "requirement": "Usa un navegador en otro dispositivo de tu red local para ver o transferir archivos.",
+      "source": "https://switch2homebrew.com/projects/nxgallery",
+      "package": {
+        "kind": "nro",
+        "version": "2.0.0-switch2-1",
+        "url": "https://github.com/wowilookgood/NXGallery/releases/download/2.0.0-switch2-1/NXGallery-hen.nro",
+        "sha256": "86574515d2a5d61cbbb44411503ac888a2725375d9d864c8f0cec0efd3e9e0a2",
+        "size": 20421866,
+        "target": "sdmc:/switch/nxgallery/NXGallery-hen.nro",
+        "source": "https://github.com/wowilookgood/NXGallery"
+      }
+    },
+    {
+      "id": "force-internal-speakers",
+      "cover_id": "force-internal-speakers",
+      "name": "Force Internal Speakers",
+      "category": "utilities",
+      "summary": "Utilidad para dirigir el audio a los altavoces de la consola.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/force-internal-speakers",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.0-ounce",
+        "url": "https://github.com/souldbminerr/switch_internal_speakers_nro/releases/download/v1.0.0-ounce/switch_internal_speakers_nro.nro",
+        "sha256": "4c2c1eab0f6114122a5216938ff027d70c7e27ded3ab728b35317ba09d1d9bff",
+        "size": 364711,
+        "target": "sdmc:/switch/internal-speakers/switch_internal_speakers_nro.nro",
+        "source": "https://github.com/souldbminerr/switch_internal_speakers_nro"
+      }
+    },
+    {
+      "id": "grand-theft-auto-vice-city",
+      "cover_id": "grand-theft-auto-vice-city",
+      "name": "Grand Theft Auto: Vice City",
+      "category": "ports",
+      "summary": "Reimplementación de Vice City basada en reVC y librw.",
+      "requirement": "Requiere las carpetas de tu copia original compatible de Vice City de PC.",
+      "source": "https://switch2homebrew.com/projects/grand-theft-auto-vice-city",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/OverkillLabs3/vicecity-switch2/releases/download/v1.0.0/vicecity-switch2-1.0.0.zip",
+        "sha256": "7e312271585fec5d2acffe0dec97a3ba3b1c98905fbd230cb5be295cbcf361b4",
+        "size": 10207485,
+        "target": "sdmc:/switch/gtavc",
+        "source": "https://github.com/OverkillLabs3/vicecity-switch2/releases/tag/v1.0.0",
+        "archive_root": "switch/gtavc",
+        "marker": "vicecity.nro"
+      }
+    },
+    {
+      "id": "balatro",
+      "cover_id": "balatro",
+      "name": "Balatro",
+      "category": "ports",
+      "summary": "Motor LOVE adaptado para ejecutar Balatro en Switch 2.",
+      "requirement": "Requiere extraer los archivos de tu copia original de Balatro de Steam.",
+      "source": "https://switch2homebrew.com/projects/balatro",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/OverkillLabs3/balatro-switch2/releases/download/v1.0.0/balatro-switch2-1.0.0.zip",
+        "sha256": "656b51887a0523356299c4f260951a5f038a25c03fcaf141922891effbd9834e",
+        "size": 9209455,
+        "target": "sdmc:/switch/balatro",
+        "source": "https://github.com/OverkillLabs3/balatro-switch2/releases/tag/v1.0.0",
+        "archive_root": "switch/balatro",
+        "marker": "balatro.nro"
+      }
+    },
+    {
+      "id": "perfect-dark",
+      "cover_id": "perfect-dark",
+      "name": "Perfect Dark",
+      "category": "ports",
+      "summary": "Port nativo de Perfect Dark para Switch 2.",
+      "requirement": "Requiere tu ROM original de Perfect Dark (USA), con el nombre indicado por el proyecto.",
+      "source": "https://switch2homebrew.com/projects/perfect-dark",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/OverkillLabs3/perfectdark-switch2/releases/download/v1.0.0/perfectdark-switch2-1.0.0.zip",
+        "sha256": "cf8b1935d9b231626dfe85304bc68c5f57eca13621728ba5f083bbe71f77366f",
+        "size": 6808489,
+        "target": "sdmc:/switch/pd",
+        "source": "https://github.com/OverkillLabs3/perfectdark-switch2/releases/tag/v1.0.0",
+        "archive_root": "switch/pd",
+        "marker": "perfectdark.nro"
+      }
+    },
+    {
+      "id": "half-life",
+      "cover_id": "half-life",
+      "name": "Half-Life",
+      "category": "ports",
+      "summary": "Port de Half-Life basado en Xash3D FWGS.",
+      "requirement": "Requiere la carpeta valve de tu copia original de Half-Life anterior a la edición del 25.o aniversario.",
+      "source": "https://switch2homebrew.com/projects/half-life",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/OverkillLabs3/halflife-switch2/releases/download/v1.0.0/halflife-switch2-1.0.0.zip",
+        "sha256": "d78c8582fd0516ec3881b5d28a7ad63b6090383d6d43a9ebeb5f228d884c643d",
+        "size": 10690996,
+        "target": "sdmc:/switch/xash3d",
+        "source": "https://github.com/OverkillLabs3/halflife-switch2/releases/tag/v1.0.0",
+        "archive_root": "switch/xash3d",
+        "marker": "halflife.nro"
+      }
+    },
+    {
+      "id": "ouncetato",
+      "cover_id": "ouncetato",
+      "name": "Ouncetato",
+      "category": "ports",
+      "summary": "Port de Brotato para Switch 2 mediante archivos de compatibilidad.",
+      "requirement": "Requiere el Brotato.pck de tu copia original de Steam (versión 1.2.0.3 compatible).",
+      "source": "https://switch2homebrew.com/projects/ouncetato",
+      "package": {
+        "kind": "zip",
+        "version": "0.0.5",
+        "url": "https://github.com/asuasu/ouncetato/releases/download/0.0.5/ouncetato_0.0.5.zip",
+        "sha256": "991f2a136eb9f11a24735fe9e4bdaf051492070c297da49ab711d1516d09e2cd",
+        "size": 14635915,
+        "target": "sdmc:/switch/brotato",
+        "source": "https://github.com/asuasu/ouncetato/releases/tag/0.0.5",
+        "archive_root": "brotato",
+        "marker": "brotato.nro"
+      }
+    },
+    {
+      "id": "openrac",
+      "cover_id": "openrac",
+      "name": "OpenRac",
+      "category": "ports",
+      "summary": "Port nativo del primer Ratchet & Clank para Switch 2.",
+      "requirement": "Requiere preparar los datos de tu disco original NTSC-U de Ratchet & Clank para PS2.",
+      "source": "https://switch2homebrew.com/projects/openrac",
+      "package": {
+        "kind": "zip",
+        "version": "v0.2",
+        "url": "https://github.com/LananaHWP/OpenRAC-NS2-/releases/download/v0.2/OpenRAC-Switch2-v0.2.zip",
+        "sha256": "4478d0b1f3aa26755fd6b8be45adc4f2abec37e1b687d90940485e894bd8c392",
+        "size": 21670885,
+        "target": "sdmc:/switch/openrac",
+        "source": "https://github.com/LananaHWP/OpenRAC-NS2-",
+        "archive_root": "OpenRAC-Switch2-v0.2/bundle",
+        "marker": "openrac.nro"
+      }
+    },
+    {
+      "id": "sd-bench",
+      "cover_id": "sd-bench",
+      "name": "SD Bench",
+      "category": "utilities",
+      "summary": "Medición de velocidad de lectura y escritura de la microSD.",
+      "requirement": "La prueba necesita aproximadamente 512 MB libres en la tarjeta.",
+      "source": "https://switch2homebrew.com/projects/sd-bench",
+      "package": {
+        "kind": "zip",
+        "version": "v1.0.0",
+        "url": "https://github.com/OverkillLabs3/sdbench-nx2/releases/download/v1.0.0/sdbench-nx2-1.0.0.zip",
+        "sha256": "6828ce9ac7a0a6dcac2586f7b317876bf2d4462c42a4b69e3916d65357908b90",
+        "size": 6272776,
+        "target": "sdmc:/switch/sdbench",
+        "source": "https://github.com/OverkillLabs3/sdbench-nx2/releases/tag/v1.0.0",
+        "archive_root": "switch/sdbench",
+        "marker": "sdbench.nro"
+      }
+    },
+    {
+      "id": "ouncemtp",
+      "cover_id": "ouncemtp",
+      "name": "OunceMTP",
+      "category": "utilities",
+      "summary": "Transferencia de archivos de la microSD por USB mediante MTP.",
+      "requirement": "Requiere un cable USB de datos y otro dispositivo con soporte MTP.",
+      "source": "https://switch2homebrew.com/projects/ouncemtp",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.0",
+        "url": "https://github.com/venustrikes/ouncemtp/releases/download/v1.0.0/ouncemtp.nro",
+        "sha256": "7b4ffab4396f6d94f9832f8301ccf3dff5fdf20ae3f8c0ff6e91a04a58acab17",
+        "size": 485320,
+        "target": "sdmc:/switch/ouncemtp.nro",
+        "source": "https://github.com/venustrikes/ouncemtp"
+      }
+    },
+    {
+      "id": "kodi-ns2",
+      "cover_id": "kodi-ns2",
+      "name": "Kodi for Switch 2",
+      "category": "media",
+      "summary": "Port experimental de Kodi para reproducir audio y vídeo.",
+      "requirement": "Requiere el ejecutable y su carpeta de recursos de Kodi, además de tus propios archivos multimedia.",
+      "source": "https://switch2homebrew.com/projects/kodi-ns2",
+      "package": null
+    },
+    {
+      "id": "netsurf-switch2",
+      "cover_id": "netsurf-switch2",
+      "name": "NetSurf Switch 2",
+      "category": "media",
+      "summary": "Navegador NetSurf para Switch 2 con soporte HTTPS.",
+      "requirement": "",
+      "source": "https://switch2homebrew.com/projects/netsurf-switch2",
+      "package": {
+        "kind": "nro",
+        "version": "v3.12-switch2",
+        "url": "https://github.com/davidkalil10/netsurf-switch2/releases/download/v3.12-switch2/netsurf-switch2.nro",
+        "sha256": "251fd5337a45e86e0af63e89a3633964a78e7b1bb06ecc17560d9f009079b13c",
+        "size": 43937762,
+        "target": "sdmc:/switch/netsurf/netsurf-switch2.nro",
+        "source": "https://github.com/davidkalil10/netsurf-switch2"
+      }
+    },
+    {
+      "id": "pkforge-switch2",
+      "cover_id": "pkforge-switch2",
+      "name": "PKForge Switch 2",
+      "category": "utilities",
+      "summary": "Editor local de copias exportadas de partidas de Pokémon.",
+      "requirement": "Requiere que aportes una copia de tu partida exportada. Conserva el original.",
+      "source": "https://switch2homebrew.com/projects/pkforge-switch2",
+      "package": {
+        "kind": "nro",
+        "version": "v0.7.3",
+        "url": "https://github.com/sh00kapic/PKForge-Switch2/releases/download/v0.7.3/PKForge.nro",
+        "sha256": "8b23a0134aeae3de742a080f122b06e438d7ec41095ebf26c7034a08f73508b7",
+        "size": 64510445,
+        "target": "sdmc:/switch/PKForge/PKForge.nro",
+        "source": "https://github.com/sh00kapic/PKForge-Switch2"
+      }
+    },
+    {
+      "id": "jksv-ns2",
+      "cover_id": "jksv-ns2",
+      "name": "JKSV-NS2",
+      "category": "utilities",
+      "summary": "Gestor de copias de seguridad de partidas para Switch 2.",
+      "requirement": "Conserva una copia de tus partidas antes de restaurar.",
+      "source": "https://switch2homebrew.com/projects/jksv-ns2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0.1",
+        "url": "https://github.com/Aster145/JKSV-NS2/releases/download/v1.0.1/JKSV-NS2-1.0.1.nro",
+        "sha256": "9eed4183f372292bf706ef6b3e2ef4ef508d27cc4d38416f6b8e9645af86d727",
+        "size": 20665223,
+        "target": "sdmc:/switch/JKSV/JKSV.nro",
+        "source": "https://github.com/Aster145/JKSV-NS2/releases/tag/v1.0.1"
+      }
+    },
+    {
+      "id": "torchlight-rekindled",
+      "cover_id": "torchlight-rekindled",
+      "name": "Torchlight Rekindled",
+      "category": "ports",
+      "summary": "Port experimental del motor de Torchlight para Switch 2.",
+      "requirement": "Requiere los datos de tu copia original compatible de Torchlight para PC o Xbox 360.",
+      "source": "https://switch2homebrew.com/projects/torchlight-rekindled",
+      "package": {
+        "kind": "zip",
+        "version": "1.2.0",
+        "url": "https://github.com/GreenSwampDweller/torchlight-rekindled/releases/download/1.2.0/TorchlightRekindled-1.2.0-switch2.zip",
+        "sha256": "1ba89eda9a06d80f28024a560ae8ded87de75074ff309300585877dd998cfc85",
+        "size": 11466688,
+        "target": "sdmc:/switch/torchlight",
+        "source": "https://github.com/GreenSwampDweller/torchlight-rekindled",
+        "archive_root": "switch/torchlight",
+        "marker": "torchlight.nro"
+      }
+    },
+    {
+      "id": "chocolate-doom",
+      "cover_id": "chocolate-doom",
+      "name": "Chocolate Doom",
+      "category": "ports",
+      "summary": "Port nativo del motor Chocolate Doom.",
+      "requirement": "Añade tu IWAD original o shareware y los archivos oficiales default.cfg y chocolate-doom.cfg.",
+      "source": "https://switch2homebrew.com/projects/chocolate-doom",
+      "package": {
+        "kind": "nro",
+        "version": "20261114",
+        "url": "https://github.com/kurumuz/chocolate-doom-nx/releases/download/20261114/doom.nro",
+        "sha256": "fead81ce9a3c6303f874453c6e402a62a350c9b42a9b5a3384b3fbfb56310108",
+        "size": 19391430,
+        "target": "sdmc:/switch/chocolate-doom/doom.nro",
+        "source": "https://github.com/kurumuz/chocolate-doom-nx"
+      }
+    },
+    {
+      "id": "lego-star-wars-the-complete-saga",
+      "cover_id": "lego-star-wars-the-complete-saga",
+      "name": "LEGO Star Wars: The Complete Saga",
+      "category": "ports",
+      "summary": "Port nativo de LEGO Star Wars: The Complete Saga.",
+      "requirement": "Requiere los archivos de tu copia original de Android 2.0.2.02 (build 20202).",
+      "source": "https://switch2homebrew.com/projects/lego-star-wars-the-complete-saga",
+      "package": {
+        "kind": "nro",
+        "version": "v0.4.0",
+        "url": "https://github.com/AlvaroEPena/lswtcs_sx2/releases/download/v0.4.0/lswtcs-sx2.nro",
+        "sha256": "37d55032e74dccd9280a1f4643f8f38eafbc0259bb9d6d3e3f78fad843d3b712",
+        "size": 17376982,
+        "target": "sdmc:/switch/lswtcs-sx2/lswtcs-sx2.nro",
+        "source": "https://github.com/AlvaroEPena/lswtcs_sx2"
+      }
+    },
+    {
+      "id": "need-for-speed-hot-pursuit-2",
+      "cover_id": "need-for-speed-hot-pursuit-2",
+      "name": "Need for Speed: Hot Pursuit 2",
+      "category": "ports",
+      "summary": "Port nativo de Need for Speed: Hot Pursuit 2.",
+      "requirement": "Requiere preparar los datos de tu disco original PAL 1.00 de PlayStation 2 (SLES-50731).",
+      "source": "https://switch2homebrew.com/projects/need-for-speed-hot-pursuit-2",
+      "package": {
+        "kind": "nro",
+        "version": "v1.0",
+        "url": "https://github.com/HDErick/NFSHP2_Switch_Port/releases/download/v1.0/NFSHP2-Switch2.nro",
+        "sha256": "f377ac6b8e694bf1510b19c301d07dfddd337dce00384cf0c94473c90cbe44b6",
+        "size": 13992328,
+        "target": "sdmc:/switch/NFSHP2-Switch2/NFSHP2-Switch2.nro",
+        "source": "https://github.com/HDErick/NFSHP2_Switch_Port"
+      }
+    },
+    {
+      "id": "openblops-nx",
+      "cover_id": "openblops-nx",
+      "name": "OpenBLOPS-NX",
+      "category": "ports",
+      "summary": "Reimplementación del motor de Call of Duty: Black Ops.",
+      "requirement": "Requiere preparar los archivos de tu instalación original de Black Ops para PC.",
+      "source": "https://switch2homebrew.com/projects/openblops-nx",
+      "package": {
+        "kind": "zip",
+        "version": "1.1.0",
+        "url": "https://github.com/HDErick/OpenBLOPS-NX/releases/download/1.1.0/OpenBLOPS-NX2.zip",
+        "sha256": "7db09b4c1f00fca94a6e0c2b243c9cd2b75d57c499cd5c0f8389bc16db1f1a2f",
+        "size": 28128432,
+        "target": "sdmc:/switch/OpenBLOPS-NX2",
+        "source": "https://github.com/HDErick/OpenBLOPS-NX",
+        "archive_root": "switch/OpenBLOPS-NX2",
+        "marker": "OpenBLOPS-NX2.nro"
+      }
+    },
+    {
+      "id": "phantasy-star-portable-2-infinity-port",
+      "cover_id": "phantasy-star-portable-2-infinity-port",
+      "name": "Phantasy Star Portable 2 Infinity - Port",
+      "category": "ports",
+      "summary": "Recompilación nativa de Phantasy Star Portable 2 Infinity.",
+      "requirement": "Requiere los archivos de tu copia original compatible de Phantasy Star Portable 2 Infinity para PSP.",
+      "source": "https://switch2homebrew.com/projects/phantasy-star-portable-2-infinity-port",
+      "package": {
+        "kind": "nro",
+        "version": "v0.9.1",
+        "url": "https://github.com/Prlxd/psp2i-switch2-port/releases/download/v0.9.1/psp2i.nro",
+        "sha256": "f8a9b2fb928a5fbe2ac50af7a8c239ce0fd2df316424b85cfde78592e397baaa",
+        "size": 100129520,
+        "target": "sdmc:/switch/psp2i/psp2i.nro",
+        "source": "https://github.com/Prlxd/psp2i-switch2-port"
+      }
+    },
+    {
+      "id": "izpsx",
+      "cover_id": "izpsx",
+      "name": "IZPSX",
+      "category": "emulation",
+      "summary": "Emulador experimental de PlayStation basado en PCSX-ReARMed, con tarjetas de memoria y funciones multijugador.",
+      "requirement": "Módulo para IZ2S. Usa juegos extraídos de tus discos originales de PlayStation.",
+      "source": "https://switch2homebrew.com/projects/izpsx",
+      "package": null
+    },
+    {
+      "id": "fastcars-recomp-nx2",
+      "cover_id": "fastcars-recomp-nx2",
+      "name": "FastCars Recomp NX2",
+      "category": "ports",
+      "summary": "Recompilación experimental de Grand Theft Auto V de Xbox 360 para Switch 2.",
+      "requirement": "Se prepara en un PC. Requiere los dos discos originales de Xbox 360 y la actualización 27.",
+      "source": "https://switch2homebrew.com/projects/fastcars-recomp-nx2",
+      "package": null
+    },
+    {
+      "id": "celeste-classic",
+      "cover_id": "celeste-classic",
+      "name": "Celeste Classic",
+      "category": "ports",
+      "summary": "Adaptación del juego original de PICO-8 mediante shaders. La versión actual no tiene sonido.",
+      "requirement": "Las pruebas en consola son limitadas. Consulta el repositorio para compilarlo.",
+      "source": "https://switch2homebrew.com/projects/celeste-classic",
+      "package": null
+    },
+    {
+      "id": "izdoom",
+      "cover_id": "izdoom",
+      "name": "IZDOOM",
+      "category": "ports",
+      "summary": "Port experimental de DOOM para IZ2S, con renderizado por GPU y modo panorámico.",
+      "requirement": "Requiere IZ2S y los datos de tu copia original de DOOM. El audio sigue en pruebas en consola.",
+      "source": "https://switch2homebrew.com/projects/izdoom",
+      "package": null
+    },
+    {
+      "id": "dirt-2",
+      "cover_id": "dirt-2",
+      "name": "DiRT 2",
+      "category": "ports",
+      "summary": "Demostración de DiRT 2 en Switch 2 publicada por XITRIX.",
+      "requirement": "La ficha enlaza a la demostración. No hay una versión pública verificada para instalar.",
+      "source": "https://switch2homebrew.com/projects/dirt-2",
+      "package": null
+    },
+    {
+      "id": "jellyfin-by-thzoria-and-yaja",
+      "cover_id": "jellyfin-by-thzoria-and-yaja",
+      "name": "Jellyfin by THZoria and YAJA",
+      "category": "media",
+      "summary": "Dos clientes antiguos de Jellyfin para un servidor multimedia personal.",
+      "requirement": "Requieren CivHomebrew. Comprueba la versión del entorno indicada por el autor de cada cliente.",
+      "source": "https://switch2homebrew.com/projects/jellyfin-by-thzoria-and-yaja",
+      "package": null
+    },
+    {
+      "id": "ounce-hbmenu",
+      "cover_id": "ounce-hbmenu",
+      "name": "Ounce HBMenu",
+      "category": "utilities",
+      "summary": "Menú que abre aplicaciones homebrew de Nintendo Switch 2.",
+      "requirement": "Es un componente del entorno homebrew. Consulta la documentación del proyecto.",
+      "source": "https://switch2homebrew.com/projects/ounce-hbmenu",
+      "package": null
+    },
+    {
+      "id": "brewstore",
+      "cover_id": "brewstore",
+      "name": "Brewstore",
+      "category": "utilities",
+      "summary": "Tienda homebrew que consulta sus propios repositorios y publica sus propias versiones.",
+      "requirement": "La instalación documentada requiere sustituir el lanzador. Consulta las instrucciones del autor.",
+      "source": "https://switch2homebrew.com/projects/brewstore",
+      "package": null
+    },
+    {
+      "id": "ounceshell",
+      "cover_id": "ounceshell",
+      "name": "OunceShell",
+      "category": "utilities",
+      "summary": "Gestor de archivos para Switch 2 basado en VitaShell y con servidor FTP.",
+      "requirement": "Se distribuye integrado en el entorno homebrew. Consulta el repositorio para más detalles.",
+      "source": "https://switch2homebrew.com/projects/ounceshell",
+      "package": null
+    },
+    {
+      "id": "kaidrop",
+      "cover_id": "kaidrop",
+      "name": "KaiDrop",
+      "category": "utilities",
+      "summary": "Cliente de Windows para transferir archivos a Switch 2. Adapta los nombres y las listas de reproducción en la consola.",
+      "requirement": "Funciona en Windows. Consulta la ficha web para las opciones de conexión con la consola.",
+      "source": "https://switch2homebrew.com/projects/kaidrop",
+      "package": null
+    },
+    {
+      "id": "kaihen",
+      "cover_id": "kaihen",
+      "name": "kaiHEN",
+      "category": "development",
+      "summary": "Referencia sobre el entorno experimental que usan varios proyectos homebrew de Switch 2.",
+      "requirement": "La compatibilidad depende de la versión del entorno indicada por cada proyecto. Se gestiona fuera de la tienda.",
+      "source": "https://switch2homebrew.com/projects/kaihen",
+      "package": null
+    },
+    {
+      "id": "ounce-devkit",
+      "cover_id": "ounce-devkit",
+      "name": "Ounce Devkit",
+      "category": "development",
+      "summary": "Herramientas y bibliotecas para desarrollar y portar homebrew a Switch 2, incluidas libounce y OunceVK.",
+      "requirement": "Es un conjunto de herramientas de desarrollo para ordenador. Consulta el repositorio para usarlo.",
+      "source": "https://switch2homebrew.com/projects/ounce-devkit",
+      "package": null
+    },
+    {
+      "id": "native-builds",
+      "cover_id": "native-builds",
+      "name": "Native builds",
+      "category": "development",
+      "summary": "Guía para identificar versiones nativas de Switch 2 y entender cuándo hay que recompilar un port.",
+      "requirement": "Es una referencia de compatibilidad. Los requisitos de instalación figuran en la ficha de cada aplicación.",
+      "source": "https://switch2homebrew.com/projects/native-builds",
+      "package": null
+    },
+    {
+      "id": "legacy-packages",
+      "cover_id": "legacy-packages",
+      "name": "Legacy packages",
+      "category": "development",
+      "summary": "Guía de los formatos antiguos .civapp de CivHomebrew e .iza de IZ2S.",
+      "requirement": "Comprueba qué entorno pide cada versión de la aplicación.",
+      "source": "https://switch2homebrew.com/projects/legacy-packages",
+      "package": null
+    },
+    {
+      "id": "useful-gameplay-reports",
+      "cover_id": "useful-gameplay-reports",
+      "name": "Useful gameplay reports",
+      "category": "development",
+      "summary": "Guía para compartir pruebas de rendimiento con la versión, la resolución y los detalles de la sesión.",
+      "requirement": "La ficha incluye recomendaciones para describir problemas gráficos, sonido y estabilidad.",
+      "source": "https://switch2homebrew.com/projects/useful-gameplay-reports",
+      "package": null
+    },
+    {
+      "id": "civswitch-serialbridge",
+      "cover_id": "civswitch-serialbridge",
+      "name": "CivSwitch-SerialBridge",
+      "category": "utilities",
+      "summary": "Proyecto de puente serie para CivSwitch mediante ESP32 o hardware compatible con Linux.",
+      "requirement": "Requiere dispositivo externo y una configuración propia. Consulta la documentación del proyecto.",
+      "source": "https://switch2homebrew.com/projects/civswitch-serialbridge",
+      "package": null
+    },
+    {
+      "id": "web-file-manager",
+      "cover_id": "web-file-manager",
+      "name": "Web File Manager",
+      "category": "utilities",
+      "summary": "Complemento para gestionar los archivos de la microSD desde el navegador en la red local.",
+      "requirement": "Es un complemento de arranque de kaiHEN. No tiene contraseña y está destinado a redes de confianza.",
+      "source": "https://switch2homebrew.com/projects/web-file-manager",
+      "package": null
+    },
+    {
+      "id": "simplestreamer",
+      "cover_id": "simplestreamer",
+      "name": "SimpleStreamer",
+      "category": "media",
+      "summary": "Complemento experimental que envía vídeo y audio de Switch 2 a otro dispositivo por red o por USB.",
+      "requirement": "Requiere un complemento de kaiHEN y un dispositivo receptor. El modo USB se usa con la consola fuera del dock.",
+      "source": "https://switch2homebrew.com/projects/simplestreamer",
+      "package": null
+    },
+    {
+      "id": "godot-editor-export-templates-for-switch-2",
+      "cover_id": "godot-editor-export-templates-for-switch-2",
+      "name": "Godot Editor & Export Templates for Switch 2",
+      "category": "utilities",
+      "summary": "Editor Godot y plantillas para exportar juegos y proyectos a Switch 2.",
+      "requirement": "El editor funciona en un ordenador. Consulta el repositorio para preparar las exportaciones.",
+      "source": "https://switch2homebrew.com/projects/godot-editor-export-templates-for-switch-2",
+      "package": null
+    },
+    {
+      "id": "minecraft-rust",
+      "cover_id": "minecraft-rust",
+      "name": "Minecraft Rust",
+      "category": "ports",
+      "summary": "Minecraft: Java Edition adaptado a Switch 2, con juego en línea, VRR y ratón con Joy-Con.",
+      "requirement": "La preparación usa un programa de Windows. Necesitas acceso legítimo a Minecraft: Java Edition.",
+      "source": "https://switch2homebrew.com/projects/minecraft-rust",
+      "package": null
+    }
+  ]
+}
